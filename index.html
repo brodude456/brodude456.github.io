@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+
+<html lang="bs">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Moja Portfolio Stranica</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+
+<header class="site-header">
+<nav class="navbar">
+<div class="logo">
+<span>FM</span>
+</div>
+<ul class="nav-list">
+<li><a href="#home"><span class="lang lang-bs">Početna</span><span class="lang lang-en">Home</span></a></li>
+<li><a href="#about"><span class="lang lang-bs">O meni</span><span class="lang lang-en">About</span></a></li>
+<li><a href="#skills"><span class="lang lang-bs">Vještine</span><span class="lang lang-en">Skills</span></a></li>
+<li><a href="#education"><span class="lang lang-bs">Obrazovanje</span><span class="lang lang-en">Education</span></a></li>
+<li><a href="#projects"><span class="lang lang-bs">Projekti</span><span class="lang lang-en">Projects</span></a></li>
+<li><a href="#blog"><span class="lang lang-bs">Blogovi</span><span class="lang lang-en">Blog</span></a></li>
+<li><a href="#gallery"><span class="lang lang-bs">Galerija</span><span class="lang lang-en">Gallery</span></a></li>
+<li><a href="#audio"><span class="lang lang-bs">Audio</span><span class="lang lang-en">Audio</span></a></li>
+<li><a href="#contact"><span class="lang lang-bs">Kontakt</span><span class="lang lang-en">Contact</span></a></li>
+</ul>
+<div class="toggles">
+
+<label class="toggle theme-toggle">
+<input checked="" id="theme-toggle" type="checkbox"/>
+<span class="toggle-label">
+<span class="lang lang-bs">Tamni režim</span>
+<span class="lang lang-en">Dark mode</span>
+</span>
+</label>
+<label class="toggle lang-toggle">
+<input id="lang-toggle" type="checkbox"/>
+<span class="toggle-label">EN / BS</span>
+</label>
+</div>
+</nav>
+</header>
+<main>
+
+<section aria-labelledby="hero-title" class="hero" id="home">
+<div class="hero-content">
+<h1 id="hero-title">
+<span class="lang lang-bs">Fatih Efe Memišević</span>
+<span class="lang lang-en">Fatih Efe Memišević</span>
+</h1>
+<p>
+<span class="lang lang-bs">Student kompjuterskih nauka i entuzijasta za web programiranje.</span>
+<span class="lang lang-en">Computer Science student and a web development enthusiast.</span>
+</p>
+<div class="hero-actions">
+<a class="btn primary-btn" href="#about">
+<span class="lang lang-bs">Pogledaj moj CV</span>
+<span class="lang lang-en">View my CV</span>
+</a>
+<a class="btn secondary-btn" href="#projects">
+<span class="lang lang-bs">Pogledaj projekte</span>
+<span class="lang lang-en">View projects</span>
+</a>
+</div>
+</div>
+<div class="hero-visual">
+<input aria-hidden="true" class="hero-toggle" id="hero-spin" type="checkbox"/>
+<label aria-label="Profile photo" class="hero-photo-placeholder" for="hero-spin">
+    <div class="hero-photo" aria-hidden="true">
+    <div class="hero-photo-track">
+        <img src="media/profile1.png" alt="">
+        <img src="media/profile2.png" alt="">
+        <img src="media/profile3.png" alt="">
+        <img src="media/profile1.png" alt="">
+    </div>
+</div>
+
+</label>
+</div>
+
+</section>
+
+<section class="section about-section" id="about">
+<div class="section-header">
+<h2><span class="lang lang-bs">O meni</span><span class="lang lang-en">About me</span></h2>
+<p>
+<span class="lang lang-bs">Kratak uvod u mene: biografija, interesi i ciljeve.</span>
+<span class="lang lang-en">A short introduction to who I am: biography, my interests and my goals.</span>
+</p>
+</div>
+<div class="about-content"><p><span class="lang lang-bs">Student sam kompjuterskih nauka na Prirodno-matematičkom fakultetu u Sarajevu (PMF), gdje trenutno gradim snažnu osnovu iz matematike i računarstva.</span><span class="lang lang-en">I’m a Computer Science student at the Faculty of Science in Sarajevo (PMF), currently building a strong foundation in both mathematics and computing.</span></p><p><span class="lang lang-bs">Rođen sam 07.09.2006. u Teheranu, Iran. Otac mi je Bosanac (porijeklom iz Višegrada), a majka Turkinja iz Kırıkkale; oboje su doktori nauka iz perzijskog jezika i književnosti.</span><span class="lang lang-en">I was born on 07/09/2006 in Tehran, Iran. My father is Bosnian (originally from Višegrad), and my mother is Turkish from Kırıkkale; both hold PhDs in Persian language and literature.</span></p><p><span class="lang lang-bs">Imam pet godina stariju sestru Fatmu Hanu. Nakon što sam završio vrtić u Teheranu, sa svojih 5 godina, porodica i ja smo se preselili u Sarajevo (Novi Grad), gdje sam nastavio školovanje. Osnovnu školu Osman Nakaš pohađao sam od 2017. do 2021. godine, zatim Drugu gimnaziju u Sarajevu od 2021. do 2025., a od 2025. godine sam student na PMF-u.</span><span class="lang lang-en">I have an older sister, Fatma Hana, who is five years older than me. After finishing kindergarten in Tehran, at 5 years of age, my family and I moved to Sarajevo (Novi Grad), where I continued my education. I attended Osman Nakaš Primary School from 2017 to 2021, then Second Gymnasium in Sarajevo from 2021 to 2025, and I have been studying at PMF since 2025.</span></p><p><span class="lang lang-bs">U programiranju me posebno privlači web razvoj — volim praviti moderne, responzivne i vizuelno čiste stranice i aplikacije, uz fokus na dobar UX, pristupačnost i jasnu strukturu koda. Pored toga, interesuju me algoritmi i diskretna matematika, kao i način na koji se teoretske ideje pretvaraju u praktična rješenja. Trenutno najviše radim na proširivanju znanja iz analize, algoritama, web programiranja i osnova umjetne inteligencije.</span><span class="lang lang-en">In programming, I’m especially drawn to web development — I enjoy creating modern, responsive, visually clean websites and applications with a focus on good UX, accessibility, and a clear code structure. I’m also interested in algorithms and discrete mathematics, and in how theoretical ideas turn into practical solutions. At the moment, I’m mainly expanding my knowledge in mathematical analysis, algorithms, web programming, and the fundamentals of AI.</span></p><p><span class="lang lang-bs">U slobodno vrijeme treniram stoni tenis (oko 3 godine) i redovno učestvujem na open turnirima. Cilj mi je da se razvijam kao programer kroz projekte i kontinuirano učenje. Dugoročno želim postati pouzdan i svestran developer koji može samostalno iznijeti projekat od ideje do gotovog proizvoda, te raditi na rješenjima koja imaju stvarnu vrijednost i jasnu svrhu. Posebno mi je važno razviti disciplinu, dosljednost i “inženjerski” način razmišljanja — da svaka odluka u kodu ima smisao, da je rješenje održivo, a kvalitet vidljiv i u detaljima.</span><span class="lang lang-en">In my free time, I train table tennis (around 3 years) and regularly participate in open tournaments. My goal is to grow as a developer through projects and continuous learning. In the long term, I want to become a reliable and versatile developer who can take a project from an idea to a finished product, and work on solutions that have real value and a clear purpose. What matters most to me is developing discipline, consistency, and an engineering mindset — making thoughtful decisions in code, building maintainable solutions, and caring about quality down to the smallest details.</span></p></div>
+</section>
+
+<section class="section skills-section" id="skills">
+<div class="section-header">
+<h2><span class="lang lang-bs">Vještine i jezici</span><span class="lang lang-en">Skills and languages</span></h2>
+<p>
+<span class="lang lang-bs">Tehničke vještine, jezici i druge sposobnosti.</span>
+<span class="lang lang-en">Technical skills, languages and other abilities.</span>
+</p>
+</div>
+<h3 class="skills-subtitle">
+<span class="lang lang-bs">Tehničke vještine</span>
+<span class="lang lang-en">Technical skills</span>
+</h3>
+<div class="skills-grid">
+
+<article class="card skill-card skill-web">
+<div class="card-top">
+<span aria-hidden="true" class="icon-badge">🌐</span>
+<h4><span class="lang lang-bs">Web razvoj</span><span class="lang lang-en">Web development</span></h4>
+</div>
+<p><span class="lang lang-bs">HTML, CSS, osnovni JavaScript, responzivni dizajn.</span><span class="lang lang-en">HTML, CSS, basic JavaScript, responsive design.</span></p>
+<div class="tag-row">
+<span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS</span>
+</div>
+</article>
+<article class="card skill-card skill-prog">
+<div class="card-top">
+<span aria-hidden="true" class="icon-badge">💻</span>
+<h4><span class="lang lang-bs">Programiranje</span><span class="lang lang-en">Programming</span></h4>
+</div>
+<p><span class="lang lang-bs">C++, QBasic, Python – koncepti programiranja i algoritmi.</span><span class="lang lang-en">C++, QBasic, Python – fundamentals and algorithms.</span></p>
+<div class="tag-row">
+<span class="tag">C++</span><span class="tag">QBasic</span><span class="tag">Python</span>
+</div>
+</article>
+<article class="card info-card languages-card">
+<h3><span class="lang lang-bs">Jezici</span><span class="lang lang-en">Languages</span></h3>
+<ul class="clean-list lang-list">
+<li>
+<div class="lang-line">
+<span aria-hidden="true" class="flag">🇧🇦</span>
+<span class="lang lang-bs"> — izvorna/dvojezična stručnost</span>
+<span class="lang lang-en"> — native/bilingual proficiency</span>
+</div>
+<div class="lang-meter" style="--level: 90%"></div>
+</li>
+<li>
+<div class="lang-line">
+<span aria-hidden="true" class="flag">🇬🇧</span>
+<span class="lang lang-bs"> — profesionalna stručnost</span>
+<span class="lang lang-en"> — full professional proficiency</span>
+</div>
+<div class="lang-meter" style="--level: 95%"></div>
+</li>
+<li>
+<div class="lang-line">
+<span aria-hidden="true" class="flag">🇹🇷</span>
+<span class="lang lang-bs"> — izvorna/dvojezična stručnost</span>
+<span class="lang lang-en"> — native/bilingual proficiency</span>
+</div>
+<div class="lang-meter" style="--level: 85%"></div>
+</li>
+<li>
+<div class="lang-line">
+<span aria-hidden="true" class="flag">🇮🇷</span>
+<span class="lang lang-bs">(Farsi) — srednji nivo (B2) </span>
+<span class="lang lang-en">(Farsi) — intermediate (B2) </span>
+</div>
+<div class="lang-meter" style="--level: 75%"></div>
+</li>
+</ul>
+</article>
+
+<article class="card skill-card skill-tools">
+<div class="card-top">
+<span aria-hidden="true" class="icon-badge">🛠️</span>
+<h4><span class="lang lang-bs">Alati</span><span class="lang lang-en">Tools</span></h4>
+</div>
+<p><span class="lang lang-bs">Git, VS Code, rad u timskom okruženju.</span><span class="lang lang-en">Git, VS Code, basic teamwork workflows.</span></p>
+<div class="tag-row">
+<span class="tag">Git</span><span class="tag">VS Code</span>
+</div>
+</article>
+<article class="card skill-card skill-3d">
+<div class="card-top">
+<span aria-hidden="true" class="icon-badge">🧊</span>
+<h4><span class="lang lang-bs">3D animacija</span><span class="lang lang-en">3D animation</span></h4>
+</div>
+<p><span class="lang lang-bs">Osnove 3D modeliranja i animacije — Blender.</span><span class="lang lang-en">Basics of 3D modeling and animation — Blender.</span></p>
+<div class="tag-row">
+<span class="tag">Blender</span><span class="tag">3D</span>
+</div>
+</article>
+<article class="card info-card hobbies-card">
+<h3><span class="lang lang-bs">Hobiji / Interesi</span><span class="lang lang-en">Hobbies / Interests</span></h3>
+<ul class="clean-list hobbies-list">
+<li>
+<span aria-hidden="true" class="hobby-emoji">🏓</span>
+<span class="lang lang-bs">Stoni tenis</span><span class="lang lang-en">Table tennis</span>
+</li>
+<li>
+<span aria-hidden="true" class="hobby-emoji">📚</span>
+<span class="lang lang-bs">Čitanje</span><span class="lang lang-en">Reading</span>
+</li>
+<li>
+<span aria-hidden="true" class="hobby-emoji">👨‍💻</span>
+<span class="lang lang-bs">Istrażivanje</span>
+<span class="lang lang-en">Research</span>
+</li>
+<li><span aria-hidden="true" class="hobby-emoji">⚽</span><span class="lang lang-bs">Fudbal</span><span class="lang lang-en">Football (soccer)</span></li><li></li><li><span aria-hidden="true" class="hobby-emoji">🥾</span><span class="lang lang-bs">Planinarenje</span><span class="lang lang-en">Hiking</span></li><li><span aria-hidden="true" class="hobby-emoji">🎱</span><span class="lang lang-bs">Bilijar</span><span class="lang lang-en">Billiards</span></li><li><span aria-hidden="true" class="hobby-emoji">📸</span><span class="lang lang-bs">Fotografisanje</span><span class="lang lang-en">Photography</span></li><li><span aria-hidden="true" class="hobby-emoji">🎬</span><span class="lang lang-bs">Gledanje filmova/serija</span><span class="lang lang-en">Watching movies/TV series</span></li><li><span aria-hidden="true" class="hobby-emoji">📜</span><span class="lang lang-bs">Filozofija</span><span class="lang lang-en">Philosophy</span></li></ul>
+</article>
+</div>
+</section>
+
+<section class="section education-section" id="education">
+<div class="section-header">
+<h2><span class="lang lang-bs">Obrazovanje</span><span class="lang lang-en">Education</span></h2>
+<p><span class="lang lang-bs">Klikni na karticu da proširiš detalje.</span><span class="lang lang-en">Click a card to expand details.</span></p>
+</div>
+<div class="timeline">
+<details class="timeline-item">
+<summary class="edu-summary">
+<div class="edu-left">
+<span aria-hidden="true" class="edu-icon">🎓</span>
+<div class="edu-text">
+<h3><a href="https://pmf.unsa.ba/" rel="noopener noreferrer" target="_blank"><span class="lang lang-bs">PMF (Univerzitet u Sarajevu)</span><span class="lang lang-en">Faculty of Science (University of Sarajevo)</span></a></h3>
+<span class="edu-period"><span aria-hidden="true">📅</span> 2025 – </span>
+</div>
+</div>
+<span aria-hidden="true" class="edu-toggle"></span>
+</summary>
+<div class="timeline-details"><p><span class="lang lang-bs">Studij kompjuterskih nauka sa naglaskom na matematiku.</span><span class="lang lang-en">Computer Science studies with a strong focus on mathematics.</span></p><ul class="clean-list"><li><span class="lang lang-bs">Relevantni predmeti: Diskretna matematika, Algoritmi i strukture podataka, Web programiranje, AI/ML.</span><span class="lang lang-en">Relevant subjects: Discrete Mathematics, Algorithms & Data Structures, Web Programming, AI/ML.</span></li><li><span class="lang lang-bs">Fokus: logičko razmišljanje, rješavanje problema, i izgradnja projekata.</span><span class="lang lang-en">Focus: logical thinking, problem solving, and building projects.</span></li></ul></div>
+</details>
+<details class="timeline-item">
+<summary class="edu-summary">
+<div class="edu-left">
+<span aria-hidden="true" class="edu-icon">🏫</span>
+<div class="edu-text">
+<h3><a href="https://2gimnazija.edu.ba/index.php/bs/" rel="noopener noreferrer" target="_blank"><span class="lang lang-bs">Druga gimnazija Sarajevo</span><span class="lang lang-en">Second Gymnasium Sarajevo</span></a></h3>
+<span class="edu-period"><span aria-hidden="true">📅</span> 2021 – 2025</span>
+</div>
+</div>
+<span aria-hidden="true" class="edu-toggle"></span>
+</summary>
+<div class="timeline-details"><p><span class="lang lang-bs">Opšta gimnazija, uz takmičenja iz matematike, filozofije i sporta.</span><span class="lang lang-en">General high school with competitions in mathematics, philosophy, and sports.</span></p><ul class="clean-list"><li><span class="lang lang-bs">Matematika: 5. mjesto u 3. razredu na nivou Federacije BiH - učešće na državnom nivou .</span><span class="lang lang-en">Mathematics: 5th place (3rd grade) at the Federation of BiH level - participation at the national level.</span></li><li><span class="lang lang-bs">Filozofija: 2. mjesto na državnom takmičenju u 4. razredu - učešće na Međunarodnoj filozofskoj olimpijadi kao član delegacije/ekipe BiH.</span><span class="lang lang-en">Philosophy: 2nd place at the national competition (4th grade) - participation in the International Philosophy Olympiad as part of the Bosnia and Herzegovina delegation/team.</span></li><li><span class="lang lang-bs">Sport: 2. mjesto u 2. razredu na „Gimnazijadi“ u stonom tenisu.</span><span class="lang lang-en">Sports: 2nd place (2nd grade) at the “Gimnazijada” competition in table tennis.</span></li></ul></div>
+</details>
+
+<details class="timeline-item">
+<summary class="edu-summary">
+<div class="edu-left">
+<span aria-hidden="true" class="edu-icon">📘</span>
+<div class="edu-text">
+<h3><a href="https://osonakas.edu.ba/" rel="noopener noreferrer" target="_blank"><span class="lang lang-bs">OŠ Osman Nakaš</span><span class="lang lang-en">Primary School Osman Nakaš</span></a></h3>
+<span class="edu-period"><span aria-hidden="true">📅</span> 2017 – 2021</span>
+</div>
+</div>
+<span aria-hidden="true" class="edu-toggle"></span>
+</summary>
+<div class="timeline-details"><p><span class="lang lang-bs">Osnovno obrazovanje uz takmičenja iz matematike, informatike i fizike.</span><span class="lang lang-en">Primary education with competitions in mathematics, informatics, and physics.</span></p><ul class="clean-list"><li><span class="lang lang-bs">Učešće na takmičenjima iz matematike, informatike i fizike.</span><span class="lang lang-en">Participation in competitions in mathematics, informatics, and physics.</span></li><li><span class="lang lang-bs">Matematika: 3. mjesto na kantonalnom takmičenju u 9. razredu.</span><span class="lang lang-en">Mathematics: 3rd place at the cantonal competition (9th grade).</span></li><li><span class="lang lang-bs">Općinski nivo (7. razred): 2. mjesto iz matematike, informatike i fizike.</span><span class="lang lang-en">Municipal level (7th grade): 2nd place in mathematics, informatics, and physics.</span></li></ul></div>
+</details>
+</div>
+</section>
+
+<section class="section projects-section" id="projects">
+<div class="section-header">
+<h2><span class="lang lang-bs">Projekti</span><span class="lang lang-en">Projects</span></h2>
+<p><span class="lang lang-bs">Klikni “Detaljnije” za popup.</span><span class="lang lang-en">Click “More details” for a popup.</span></p>
+</div>
+<div class="card-grid">
+<article class="card project-card">
+  <h3>
+    <span class="lang lang-bs">Maturski rad — Kriptografija</span>
+    <span class="lang lang-en">Graduation Paper — Cryptography</span>
+  </h3>
+
+  <p>
+    <span class="lang lang-bs">
+      Maturski rad iz matematike (2025) o osnovama kriptografije i primjeni teorije brojeva u modernim kriptosistemima.
+    </span>
+    <span class="lang lang-en">
+      A Mathematics graduation paper (2025) on cryptography fundamentals and how number theory powers modern cryptosystems.
+    </span>
+  </p>
+
+  <label class="card-link modal-open" for="proj1-toggle" tabindex="0">
+    <span class="lang lang-bs">Detaljnije</span><span class="lang lang-en">More details</span>
+  </label>
+</article>
+
+<article class="card project-card">
+  <h3>
+    <span class="lang lang-bs">Blender animacija (6. razred)</span>
+    <span class="lang lang-en">Blender Animation (6th grade)</span>
+  </h3>
+
+  <p>
+    <span class="lang lang-bs">
+      Kratki 3D animirani klip koji sam napravio u Blenderu. Modelirao sam jednostavnog “robot psa”, postavio materijale i svjetla, a zatim sve renderovao u video.
+    </span>
+    <span class="lang lang-en">
+      A short 3D animated clip made in Blender. I modeled a simple “robot dog”, set up materials and lighting and rendered the final video.
+    </span>
+  </p>
+
+  <label class="card-link modal-open" for="proj2-toggle" tabindex="0">
+    <span class="lang lang-bs">Detaljnije</span><span class="lang lang-en">More details</span>
+  </label>
+</article>
+
+<article class="card project-card">
+  <h3>
+    <span class="lang lang-bs">Prilog za Federalnu TV — Čekanje Godota</span>
+    <span class="lang lang-en">Federal TV Feature — Waiting for Godot</span>
+  </h3>
+
+  <p>
+    <span class="lang lang-bs">
+      U sklopu školskog rada pripremili smo prilog za Federalnu televiziju: izveli smo svoju verziju djela “Čekanje Godota”.
+    </span>
+    <span class="lang lang-en">
+      As part of a school project, we prepared a feature for Federal Television: we performed our own version of “Waiting for Godot”.
+    </span>
+  </p>
+
+  <label class="card-link modal-open" for="proj3-toggle" tabindex="0">
+    <span class="lang lang-bs">Detaljnije</span><span class="lang lang-en">More details</span>
+  </label>
+</article>
+
+</div>
+</section>
+
+<section class="section blog-section" id="blog">
+<div class="section-header">
+<h2><span class="lang lang-bs">Blog</span><span class="lang lang-en">Blog</span></h2>
+<p><span class="lang lang-bs">Klik na karticu otvara novi tab.</span><span class="lang lang-en">Click a card to open a new tab.</span></p>
+</div>
+<div class="blog-grid">
+<a class="card blog-post blog-card" href="blog-post-1.html" rel="noopener noreferrer" target="_blank">
+<h3><span class="lang lang-bs">Web razvoj: osnove front-enda</span><span class="lang lang-en">Web Development: Front-end Basics</span></h3>
+<span class="post-date">07.10.2025</span>
+<p><span class="lang lang-bs">Kratak pregled kako nastaje moderna web stranica i šta znači “dobar” front-end.</span><span class="lang lang-en">A short overview of how modern websites are built and what makes a “good” front-end.</span></p>
+<span class="card-link"><span class="lang lang-bs">Pročitaj više →</span><span class="lang lang-en">Read more →</span></span>
+</a>
+<a class="card blog-post blog-card" href="blog-post-2.html" rel="noopener noreferrer" target="_blank">
+<h3><span class="lang lang-bs">Umjetna inteligencija: šta je i gdje je koristimo</span><span class="lang lang-en">Artificial Intelligence: What it is and where we use it</span></h3>
+<span class="post-date">07.10.2025</span>
+<p><span class="lang lang-bs">AI je postao dio svakodnevnice — od preporuka na internetu do pametnih asistenata.</span><span class="lang lang-en">AI is now part of daily life — from online recommendations to smart assistants.</span></p>
+<span class="card-link"><span class="lang lang-bs">Pročitaj više →</span><span class="lang lang-en">Read more →</span></span>
+</a>
+<a class="card blog-post blog-card" href="blog-post-3.html" rel="noopener noreferrer" target="_blank">
+<h3><span class="lang lang-bs">Sigurnost podataka i privatnost na internetu</span><span class="lang lang-en">Data Security and Online Privacy</span></h3>
+<span class="post-date">07.10.2025</span>
+<p><span class="lang lang-bs">Mali vodič kroz osnovne navike koje štite naloge i podatke.</span><span class="lang lang-en">A small guide to basic habits that protect accounts and data.</span></p>
+<span class="card-link"><span class="lang lang-bs">Pročitaj više →</span><span class="lang lang-en">Read more →</span></span>
+</a>
+</div>
+</section>
+
+<section class="section gallery-section" id="gallery">
+<div class="section-header">
+<h2><span class="lang lang-bs">Galerija</span><span class="lang lang-en">Gallery</span></h2>
+<p>
+<span class="lang lang-bs">Ručno prebacivanje strelicama ili tačkama.</span>
+<span class="lang lang-en">Manual navigation with arrows or dots.</span>
+</p>
+</div>
+<div aria-label="Gallery slider" class="gallery-slider">
+<input checked="" class="g-radio" id="g1" name="gslide" type="radio"/>
+<input class="g-radio" id="g2" name="gslide" type="radio"/>
+<input class="g-radio" id="g3" name="gslide" type="radio"/>
+<input class="g-radio" id="g4" name="gslide" type="radio"/>
+<input class="g-radio" id="g5" name="gslide" type="radio"/>
+<input class="g-radio" id="g6" name="gslide" type="radio"/>
+<input class="g-radio" id="g7" name="gslide" type="radio"/>
+<input class="g-radio" id="g8" name="gslide" type="radio"/>
+<div class="slider">
+<div class="slider-viewport">
+<div class="slider-track">
+<div class="slide"><label class="slide-img" for="lb1"><img alt="Slika 1" src="media/gallery-1.jpg"/></label></div>
+<div class="slide"><label class="slide-img" for="lb2"><img alt="Slika 2" src="media/gallery-2.jpg"/></label></div>
+<div class="slide"><label class="slide-img" for="lb3"><img alt="Slika 3" src="media/gallery-3.jpg"/></label></div>
+<div class="slide"><label class="slide-img" for="lb4"><img alt="Slika 4" src="media/gallery-4.jpg"/></label></div>
+<div class="slide"><label class="slide-img" for="lb5"><img alt="Slika 5" src="media/gallery-5.jpg"/></label></div>
+<div class="slide"><label class="slide-img" for="lb6"><img alt="Slika 6" src="media/gallery-6.jpg"/></label></div>
+<div class="slide"><label class="slide-img" for="lb7"><img alt="Slika 7" src="media/gallery-7.jpg"/></label></div>
+<div class="slide"><label class="slide-img" for="lb8"><img alt="Slika 8" src="media/gallery-8.jpg"/></label></div>
+</div>
+<div class="slider-arrows arrows-1">
+<label aria-label="Previous" class="arrow prev" for="g8">‹</label>
+<label aria-label="Next" class="arrow next" for="g2">›</label>
+</div>
+<div class="slider-arrows arrows-2">
+<label class="arrow prev" for="g1">‹</label>
+<label class="arrow next" for="g3">›</label>
+</div>
+<div class="slider-arrows arrows-3">
+<label class="arrow prev" for="g2">‹</label>
+<label class="arrow next" for="g4">›</label>
+</div>
+<div class="slider-arrows arrows-4">
+<label class="arrow prev" for="g3">‹</label>
+<label class="arrow next" for="g5">›</label>
+</div>
+<div class="slider-arrows arrows-5">
+<label class="arrow prev" for="g4">‹</label>
+<label class="arrow next" for="g6">›</label>
+</div>
+<div class="slider-arrows arrows-6">
+<label class="arrow prev" for="g5">‹</label>
+<label class="arrow next" for="g7">›</label>
+</div>
+<div class="slider-arrows arrows-7">
+<label class="arrow prev" for="g6">‹</label>
+<label class="arrow next" for="g8">›</label>
+</div>
+<div class="slider-arrows arrows-8">
+<label class="arrow prev" for="g7">‹</label>
+<label class="arrow next" for="g1">›</label>
+</div>
+</div>
+<div aria-live="polite" class="gallery-caption">
+<p class="cap cap-1">
+<span class="lang lang-bs">Stari most u Mostaru</span>
+<span class="lang lang-en">The Old bridge in Mostar</span>
+</p>
+<p class="cap cap-2">
+<span class="lang lang-bs">Čovjek (ja) kako hoda(m) u daljinu</span>
+<span class="lang lang-en">Blurred man walking away</span>
+</p>
+<p class="cap cap-3">
+<span class="lang lang-bs">Čovjek kako stoji pored drveta</span>
+<span class="lang lang-en">Man standing next to tree</span>
+</p>
+<p class="cap cap-4">
+<span class="lang lang-bs">Zalazak sunca na Skenderiji</span>
+<span class="lang lang-en">Sunset at Skenderija</span>
+</p>
+<p class="cap cap-5">
+<span class="lang lang-bs">Mačka u Ajasofiji</span>
+<span class="lang lang-en">Cat in Haghia Sophia</span>
+</p>
+<p class="cap cap-6">
+<span class="lang lang-bs">Čovjek kako gleda u nebo</span>
+<span class="lang lang-en">Man looking to the sky</span>
+</p>
+<p class="cap cap-7">
+<span class="lang lang-bs">Silueta čovjeka sa narandžastim osvjetljenjem</span>
+<span class="lang lang-en">The silhouette of a man with orange lighting</span>
+</p>
+<p class="cap cap-8">
+<span class="lang lang-bs">2D rozi i ljubičasti zalazak sunca</span>
+<span class="lang lang-en">2D pink and purple sunset</span>
+</p>
+</div>
+<div aria-label="Gallery navigation" class="slider-dots">
+<label aria-label="Slide 1" class="dot" for="g1"></label>
+<label aria-label="Slide 2" class="dot" for="g2"></label>
+<label aria-label="Slide 3" class="dot" for="g3"></label>
+<label aria-label="Slide 4" class="dot" for="g4"></label>
+<label aria-label="Slide 5" class="dot" for="g5"></label>
+<label aria-label="Slide 6" class="dot" for="g6"></label>
+<label aria-label="Slide 7" class="dot" for="g7"></label>
+<label aria-label="Slide 8" class="dot" for="g8"></label>
+</div>
+</div>
+
+<input class="lb-toggle" id="lb1" type="checkbox"/>
+<div aria-label="Slika 1" aria-modal="true" class="lightbox" role="dialog">
+<label aria-label="Close" class="lightbox-overlay" for="lb1"></label>
+<div class="lightbox-content">
+<img alt="Slika 1" src="media/gallery-1.jpg"/>
+<label aria-label="Close" class="lightbox-close" for="lb1">×</label>
+</div>
+</div>
+<input class="lb-toggle" id="lb2" type="checkbox"/>
+<div aria-label="Slika 2" aria-modal="true" class="lightbox" role="dialog">
+<label aria-label="Close" class="lightbox-overlay" for="lb2"></label>
+<div class="lightbox-content">
+<img alt="Slika 2" src="media/gallery-2.jpg"/>
+<label aria-label="Close" class="lightbox-close" for="lb2">×</label>
+</div>
+</div>
+<input class="lb-toggle" id="lb3" type="checkbox"/>
+<div aria-label="Slika 3" aria-modal="true" class="lightbox" role="dialog">
+<label aria-label="Close" class="lightbox-overlay" for="lb3"></label>
+<div class="lightbox-content">
+<img alt="Slika 3" src="media/gallery-3.jpg"/>
+<label aria-label="Close" class="lightbox-close" for="lb3">×</label>
+</div>
+</div>
+<input class="lb-toggle" id="lb4" type="checkbox"/>
+<div aria-label="Slika 4" aria-modal="true" class="lightbox" role="dialog">
+<label aria-label="Close" class="lightbox-overlay" for="lb4"></label>
+<div class="lightbox-content">
+<img alt="Slika 4" src="media/gallery-4.jpg"/>
+<label aria-label="Close" class="lightbox-close" for="lb4">×</label>
+</div>
+</div>
+<input class="lb-toggle" id="lb5" type="checkbox"/>
+<div aria-label="Slika 5" aria-modal="true" class="lightbox" role="dialog">
+<label aria-label="Close" class="lightbox-overlay" for="lb5"></label>
+<div class="lightbox-content">
+<img alt="Slika 5" src="media/gallery-5.jpg"/>
+<label aria-label="Close" class="lightbox-close" for="lb5">×</label>
+</div>
+</div>
+<input class="lb-toggle" id="lb6" type="checkbox"/>
+<div aria-label="Slika 6" aria-modal="true" class="lightbox" role="dialog">
+<label aria-label="Close" class="lightbox-overlay" for="lb6"></label>
+<div class="lightbox-content">
+<img alt="Slika 6" src="media/gallery-6.jpg"/>
+<label aria-label="Close" class="lightbox-close" for="lb6">×</label>
+</div>
+</div>
+<input class="lb-toggle" id="lb7" type="checkbox"/>
+<div aria-label="Slika 7" aria-modal="true" class="lightbox" role="dialog">
+<label aria-label="Close" class="lightbox-overlay" for="lb7"></label>
+<div class="lightbox-content">
+<img alt="Slika 7" src="media/gallery-7.jpg"/>
+<label aria-label="Close" class="lightbox-close" for="lb7">×</label>
+</div>
+</div>
+<input class="lb-toggle" id="lb8" type="checkbox"/>
+<div aria-label="Slika 8" aria-modal="true" class="lightbox" role="dialog">
+<label aria-label="Close" class="lightbox-overlay" for="lb8"></label>
+<div class="lightbox-content">
+<img alt="Slika 8" src="media/gallery-8.jpg"/>
+<label aria-label="Close" class="lightbox-close" for="lb8">×</label>
+</div>
+</div>
+</div>
+</section>
+
+<section class="section audio-section" id="audio">
+<div class="section-header">
+<h2><span class="lang lang-bs">Audio</span><span class="lang lang-en">Audio</span></h2>
+<p><span class="lang lang-bs">Kratak audio zapis</span><span class="lang lang-en">A short audio clip</span></p>
+</div>
+<div class="audio-player-wrapper">
+<audio controls="">
+<source src="media/chillguy.mp3" type="audio/mpeg"/>
+<span class="lang lang-bs">Vaš browser ne podržava audio element.</span>
+<span class="lang lang-en">Your browser does not support the audio element.</span>
+</audio>
+</div>
+</section>
+
+<section class="section contact-section" id="contact">
+<div class="section-header">
+<h2><span class="lang lang-bs">Kontakt</span><span class="lang lang-en">Contact</span></h2>
+<p><span class="lang lang-bs">Slobodno me kontaktirajte za saradnju ili pitanja.</span><span class="lang lang-en">Feel free to contact me for cooperation or questions.</span></p>
+</div>
+<div class="contact-layout">
+<div class="contact-info">
+<h3><span class="lang lang-bs">Podaci</span><span class="lang lang-en">Details</span></h3>
+<p><span class="lang lang-bs">Email:</span><span class="lang lang-en">Email:</span> <a href="mailto:fatihefeememisevic@gmail.com">fatihefeememisevic@gmail.com</a></p>
+<p><span class="lang lang-bs">GitHub:</span><span class="lang lang-en">GitHub:</span> <a href="https://github.com/brodude456" rel="noopener noreferrer" target="_blank">github.com/brodude456</a></p>
+<p><span class="lang lang-bs">LinkedIn:</span><span class="lang lang-en">LinkedIn:</span> <a href="https://www.linkedin.com/in/fatih-efe-memisevic-bab1361b8/" rel="noopener noreferrer" target="_blank">linkedin.com/in/fatih-efe-memisevic-bab1361b8/</a></p>
+<p><span class="lang lang-bs">Linktree:</span><span class="lang lang-en">Linktree:</span><a href="https://linktr.ee/tifah_efendija" rel="noopener noreferrer" target="_blank">linktr.ee/tifah_efendija</a></p></div>
+<form class="contact-form">
+<div class="form-group">
+<label for="name"><span class="lang lang-bs">Ime</span><span class="lang lang-en">Name</span></label>
+<input id="name" name="name" required="" type="text"/>
+</div>
+<div class="form-group">
+<label for="email"><span class="lang lang-bs">Email</span><span class="lang lang-en">Email</span></label>
+<input id="email" name="email" required="" type="email"/>
+</div>
+<div class="form-group">
+<label for="message"><span class="lang lang-bs">Poruka</span><span class="lang lang-en">Message</span></label>
+<textarea id="message" name="message" required="" rows="4"></textarea>
+</div>
+<button class="btn primary-btn" type="submit">
+<span class="lang lang-bs">Pošalji</span><span class="lang lang-en">Send</span>
+</button>
+</form>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<p>
+<span class="lang lang-bs">© 2025 Fatih Efe Memišević. Izrađeno za predmet Web programiranje I.</span>
+<span class="lang lang-en">© 2025 Fatih Efe Memišević. Created for the course Web Programming I.</span>
+</p>
+</footer>
+
+<input class="modal-toggle" id="proj1-toggle" type="checkbox"/>
+<div aria-label="Maturski rad — Kriptografija detalji" aria-modal="true" class="modal" role="dialog">
+  <label aria-label="Close" class="modal-overlay" for="proj1-toggle"></label>
+
+  <div class="modal-card">
+    <label aria-label="Close" class="modal-close" for="proj1-toggle">×</label>
+
+    <h3>
+      <span class="lang lang-bs">Maturski rad — Kriptografija</span>
+      <span class="lang lang-en">Graduation Paper — Cryptography</span>
+    </h3>
+
+    <p>
+      <span class="lang lang-bs">
+        Kriptografija (od starogrčkog: kryptós – “skriven, tajan” i graphein – “pisati”), kao znanstvena disciplina,
+        bavi se metodama osiguranja komunikacije kroz šifriranje podataka, čime se štiti privatnost i integritet informacija
+        u prisutnosti potencijalnih prijetnji. U ovom projektu (maturskom radu) sam objasnio kako se kriptografija razvijala
+        od ranih metoda zaštite poruka do algoritama koji danas štite digitalnu komunikaciju i transakcije.
+        Također sam obradio matematičko predznanje iz teorije brojeva i povezao ga s kriptografskim idejama:
+        polja ℤp, prošireni Euklidov algoritam, Ojlerovu funkciju i teoremu, kineski teorem o ostatcima,
+        te problem diskretnog logaritma.
+      </span>
+
+      <span class="lang lang-en">
+        Cryptography (from Ancient Greek: kryptós — “hidden, secret” and graphein — “to write”) is a scientific discipline
+        focused on securing communication through data encryption, protecting privacy and integrity in the presence of threats.
+        In this project (my graduation paper), I explained the evolution of cryptography from early substitution methods to
+        modern algorithms that secure digital communication and transactions. I also covered core number-theory foundations
+        and connected them to cryptographic ideas: fields ℤp, the extended Euclidean algorithm, Euler’s totient function and theorem,
+        the Chinese remainder theorem, and the discrete logarithm problem.
+      </span>
+    </p>
+
+    <a href="https://docs.google.com/document/d/1qg-POrJdN4tBPoayaUmqwj0qK-Q8mYPCB53VxXZMEio/edit?usp=sharing" target="_blank" rel="noreferrer noopener">
+      <img src="media/Maturski.png" alt="Naslovnica maturskog rada: Kriptografija">
+    </a>
+
+    <ul class="clean-list">
+      <li>
+        <span class="lang lang-bs">Tip: maturski rad (Matematika), 2025</span>
+        <span class="lang lang-en">Type: graduation paper (Mathematics), 2025</span>
+      </li>
+      <li>
+        <span class="lang lang-bs">Teme: kriptografija, teorija brojeva</span>
+        <span class="lang lang-en">Topics: cryptography, number theory</span>
+      </li>
+      <li>
+        <span class="lang lang-bs">Dokument: klik na sliku otvara rad</span>
+        <span class="lang lang-en">Document: click the image to open</span>
+      </li>
+    </ul>
+  </div>
+</div>
+
+
+<input class="modal-toggle" id="proj2-toggle" type="checkbox"/>
+<div aria-label="Blender animacija detalji" aria-modal="true" class="modal" role="dialog">
+  <label aria-label="Close" class="modal-overlay" for="proj2-toggle"></label>
+
+  <div class="modal-card">
+    <label aria-label="Close" class="modal-close" for="proj2-toggle">×</label>
+
+    <h3>
+      <span class="lang lang-bs">Blender animacija (6. razred)</span>
+      <span class="lang lang-en">Blender Animation (6th grade)</span>
+    </h3>
+
+    <p>
+      <span class="lang lang-bs">
+        U ovom projektu sam u Blenderu napravio kratku animaciju: model (robot pas) je sastavljen od jednostavnih oblika,
+        dodani su materijali i osvjetljenje, a kretanje je animirano keyframe-ovima. Finalni rezultat je renderovan kao video.
+      </span>
+      <span class="lang lang-en">
+        In this project I created a short Blender animation: the model (robot dog) is built from simple shapes,
+        with materials and lighting set up, and movement animated via keyframes. The final result was rendered as a video.
+      </span>
+    </p>
+
+    <video class="project-video" controls preload="metadata" playsinline>
+      <source src="media/blender.mp4" type="video/mp4">
+    </video>
+
+    <ul class="clean-list">
+        <li>
+            <span class="lang lang-bs">Tip: 3D animacija (Blender), 6. razred osnovne škole</span>
+            <span class="lang lang-en">Type: 3D animation (Blender), 6th grade of primary school</span>
+        </li>
+        <li>
+            <span class="lang lang-bs">Alat: Blender</span>
+            <span class="lang lang-en">Tool: Blender</span>
+        </li>
+        <li>
+            <span class="lang lang-bs">Šta sam radio: modeliranje, materijali, osvjetljenje, keyframe animacija, render</span>
+            <span class="lang lang-en">What I did: modeling, materials, lighting, keyframe animation, rendering</span>
+        </li>
+    </ul>
+
+    
+  </div>
+</div>
+
+<input class="modal-toggle" id="proj3-toggle" type="checkbox"/>
+<div aria-label="Prilog za Federalnu TV — Čekanje Godota detalji" aria-modal="true" class="modal" role="dialog">
+  <label aria-label="Close" class="modal-overlay" for="proj3-toggle"></label>
+
+  <div class="modal-card">
+    <label aria-label="Close" class="modal-close" for="proj3-toggle">×</label>
+
+    <h3>
+      <span class="lang lang-bs">Prilog za Federalnu TV — Čekanje Godota</span>
+      <span class="lang lang-en">Federal TV Feature — Waiting for Godot</span>
+    </h3>
+
+    <p>
+      <span class="lang lang-bs">
+        U ovom projektu sam učestvovao u izvedbi naše verzije “Čekanja Godota” i u kratkom osvrtu gdje govorim o svom doživljaju
+        djela u kontekstu teme, atmosfere i poruke. U završnici izvedbe nalazi se i kratka fight scena u kojoj demonstriram
+        jiu-jitsu takedown tehniku.
+      </span>
+      <span class="lang lang-en">
+        In this project I took part in performing our version of “Waiting for Godot” and in a short on-camera reflection where I
+        share my interpretation in terms of context, theme, atmosphere, and message. Near the end, there is also a brief fight scene
+        featuring a jiu-jitsu takedown technique.
+      </span>
+    </p>
+
+    <a href="https://federalna.ba/svako-dobro-15012025-np0p5" target="_blank" rel="noreferrer noopener">
+      <img class="project-preview-img" src="media/Prilog.png" alt="Prilog za Federalnu TV — Čekanje Godota">
+    </a>
+
+    <ul class="clean-list">
+      <li>
+        <span class="lang lang-bs">Tip: TV prilog / školski projekat (gluma + interpretacija)</span>
+        <span class="lang lang-en">Type: TV feature / school project (performance + interpretation)</span>
+      </li>
+      <li>
+        <span class="lang lang-bs">Tema: “Čekanje Godota” — izvedba i osvrt na kontekst</span>
+        <span class="lang lang-en">Topic: “Waiting for Godot” — performance and contextual reflection</span>
+      </li>
+      <li>
+        <span class="lang lang-bs">Video: klik na sliku otvara dokumentarac (naš prilog počinje na -39:16)</span>
+        <span class="lang lang-en">Video: click the image to open (our segment starts at -39:16)</span>
+      </li>
+      <li>
+        <span class="lang lang-bs">Detalj: fight scena — jiu-jitsu takedown tehnika</span>
+        <span class="lang lang-en">Detail: fight scene — jiu-jitsu takedown technique</span>
+      </li>
+    </ul>
+  </div>
+</div>
+
+</body>
+</html>

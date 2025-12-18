@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>Blog 1 – Web razvoj</title>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet"/>
+  <link href="style.css" rel="stylesheet"/>
+</head>
+
+<body class="blog-page">
+<header class="site-header">
+  <nav class="navbar">
+    <div class="logo"><span>FM</span></div>
+
+    <ul class="nav-list">
+      <li>
+        <a href="index2.html#blog" onclick="window.close();">
+          <span class="lang lang-bs">← Nazad</span>
+          <span class="lang lang-en">← Back</span>
+        </a>
+      </li>
+      <li><a href="blog-post-2.html"><span class="lang lang-bs">Blog 2</span><span class="lang lang-en">Blog 2</span></a></li>
+      <li><a href="blog-post-3.html"><span class="lang lang-bs">Blog 3</span><span class="lang lang-en">Blog 3</span></a></li>
+      <li><a href="#contact"><span class="lang lang-bs">Kontakt</span><span class="lang lang-en">Contact</span></a></li>
+    </ul>
+
+    <div class="toggles">
+      <label class="toggle theme-toggle">
+        <input checked id="theme-toggle" type="checkbox"/>
+        <span class="toggle-label">
+          <span class="lang lang-bs">Tamni režim</span>
+          <span class="lang lang-en">Dark mode</span>
+        </span>
+      </label>
+
+      <label class="toggle lang-toggle">
+        <input id="lang-toggle" type="checkbox"/>
+        <span class="toggle-label">EN / BS</span>
+      </label>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <section class="section">
+    <div class="section-header">
+      <h2>
+        <span class="lang lang-bs">Web razvoj: osnove front-enda</span>
+        <span class="lang lang-en">Web Development: Front-end Basics</span>
+      </h2>
+      <p>
+        <span class="lang lang-bs">Kratak pregled kako nastaje moderna web stranica i šta znači “dobar” front-end.</span>
+        <span class="lang lang-en">A short overview of how modern websites are built and what makes a “good” front-end.</span>
+      </p>
+    </div>
+
+    <article class="blog-article-card">
+      <h3>
+        <span class="lang lang-bs">1) HTML – struktura</span>
+        <span class="lang lang-en">1) HTML – structure</span>
+      </h3>
+      <p>
+        <span class="lang lang-bs">
+          HTML je kostur stranice: naslovi, paragrafi, liste, sekcije i forme. Dobra struktura (semantički tagovi poput
+          header, main, section, footer) pomaže i korisnicima i pretraživačima, a posebno pristupačnosti.
+        </span>
+        <span class="lang lang-en">
+          HTML is the skeleton of the page: headings, paragraphs, lists, sections, and forms. Good structure (semantic tags
+          like header, main, section, footer) improves usability, SEO, and especially accessibility.
+        </span>
+      </p>
+
+      <h3>
+        <span class="lang lang-bs">2) CSS – izgled i raspored</span>
+        <span class="lang lang-en">2) CSS – style and layout</span>
+      </h3>
+      <p>
+        <span class="lang lang-bs">
+          CSS daje vizuelni identitet: boje, tipografiju, spacing, kartice, animacije. Za raspored se najčešće koriste Flexbox i Grid.
+          Responsivnost znači da stranica lijepo radi na mobitelu, tabletu i desktopu, bez “lomljenja” layouta.
+        </span>
+        <span class="lang lang-en">
+          CSS defines visual identity: colors, typography, spacing, cards, and animations. Layout is typically built with Flexbox and Grid.
+          Responsiveness means the page works well on phones, tablets, and desktops without breaking.
+        </span>
+      </p>
+
+      <h3>
+        <span class="lang lang-bs">3) JavaScript – interaktivnost</span>
+        <span class="lang lang-en">3) JavaScript – interactivity</span>
+      </h3>
+      <p>
+        <span class="lang lang-bs">
+          JavaScript dodaje ponašanje: validacija forme, dinamički elementi, slajderi, fetch podataka i slično.
+          Čak i kada se (kao na ovoj stranici) dio stvari radi CSS-only, JS je često “alat za završni korak”.
+        </span>
+        <span class="lang lang-en">
+          JavaScript adds behavior: form validation, dynamic elements, sliders, data fetching, and more.
+          Even when some features are CSS-only, JS is often the tool for the final, polished behavior.
+        </span>
+      </p>
+
+      <h3>
+        <span class="lang lang-bs">Zaključak</span>
+        <span class="lang lang-en">Conclusion</span>
+      </h3>
+      <p>
+        <span class="lang lang-bs">
+          Najbolji način učenja web razvoja je kroz male projekte: portfolio, blog, to-do, mini galerija.
+          Svaki projekat te natjera da razmišljaš o detaljima: struktura, dizajn, pristupačnost i korisničko iskustvo.
+        </span>
+        <span class="lang lang-en">
+          The best way to learn web development is by building small projects: a portfolio, a blog, a to-do app, a mini gallery.
+          Each project forces you to think about details: structure, design, accessibility, and user experience.
+        </span>
+      </p>
+    </article>
+  </section>
+
+  <section class="section contact-section" id="contact">
+    <div class="section-header">
+      <h2><span class="lang lang-bs">Kontakt</span><span class="lang lang-en">Contact</span></h2>
+      <p>
+        <span class="lang lang-bs">Slobodno me kontaktirajte za saradnju ili pitanja.</span>
+        <span class="lang lang-en">Feel free to contact me for cooperation or questions.</span>
+      </p>
+    </div>
+
+    <div class="contact-layout">
+      <div class="contact-info">
+        <h3><span class="lang lang-bs">Podaci</span><span class="lang lang-en">Details</span></h3>
+        <p><span class="lang lang-bs">Email:</span><span class="lang lang-en">Email:</span>
+          <a href="mailto:fatihefeememisevic@gmail.com">fatihefeememisevic@gmail.com</a>
+        </p>
+        <p><span class="lang lang-bs">GitHub:</span><span class="lang lang-en">GitHub:</span>
+          <a href="https://github.com/brodude456" target="_blank" rel="noreferrer noopener">github.com/brodude456</a>
+        </p>
+        <p><span class="lang lang-bs">LinkedIn:</span><span class="lang lang-en">LinkedIn:</span>
+          <a href="https://www.linkedin.com/in/fatih-efe-memisevic-bab1361b8/" target="_blank" rel="noreferrer noopener">
+            linkedin.com/in/fatih-efe-memisevic-bab1361b8/
+          </a>
+        </p>
+        <p><span class="lang lang-bs">Linktree:</span><span class="lang lang-en">Linktree:</span>
+          <a href="https://linktr.ee/tifah_efendija" target="_blank" rel="noreferrer noopener">linktr.ee/tifah_efendija</a>
+        </p>
+      </div>
+
+      <form class="contact-form">
+        <div class="form-group">
+          <label for="name"><span class="lang lang-bs">Ime</span><span class="lang lang-en">Name</span></label>
+          <input id="name" name="name" type="text" required/>
+        </div>
+        <div class="form-group">
+          <label for="email"><span class="lang lang-bs">Email</span><span class="lang lang-en">Email</span></label>
+          <input id="email" name="email" type="email" required/>
+        </div>
+        <div class="form-group">
+          <label for="message"><span class="lang lang-bs">Poruka</span><span class="lang lang-en">Message</span></label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button class="btn primary-btn" type="submit">
+          <span class="lang lang-bs">Pošalji</span><span class="lang lang-en">Send</span>
+        </button>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <p><span class="lang lang-bs">© 2025 Fatih Efe Memišević.</span><span class="lang lang-en">© 2025 Fatih Efe Memišević.</span></p>
+</footer>
+</body>
+</html>
